@@ -1,10 +1,6 @@
 import type {Metadata} from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import Image from "next/image";
-import {Sheet, SheetContent, SheetTrigger} from "@/components/ui/sheet";
-import {Button} from "@/components/ui/button";
-import {Layout, Menu} from "lucide-react";
 import {NavBar} from "@/app/components/NavBar";
 import {Footer} from "@/app/components/Footer";
 

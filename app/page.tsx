@@ -1,7 +1,3 @@
-import Image from 'next/image'
-import {Button} from "@/components/ui/button"
-import {Sheet, SheetContent, SheetTrigger} from "@/components/ui/sheet"
-import {Menu} from "lucide-react"
 import {Location} from "@/app/components/sections/Location";
 import {Partner, PartnerBL} from "@/app/components/sections/Partner";
 import {FAQ} from "@/app/components/sections/FAQ";
