@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    backend: '/blue-legion-onepage'
+    basePath: '/blue-legion-onepage'
 };
 
 export default nextConfig;
