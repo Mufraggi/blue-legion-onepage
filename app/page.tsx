@@ -9,13 +9,60 @@ import {About} from "@/app/components/sections/About";
 import {Contact} from "@/app/components/sections/Contact";
 
 const weeklySchedule = [
-    {day: 'Monday', courses: ['Beginners BJJ 6-7 PM', 'Advanced BJJ 7-8:30 PM']},
-    {day: 'Tuesday', courses: ['No-Gi BJJ 6-7:30 PM', 'Open Mat 7:30-9 PM']},
-    {day: 'Wednesday', courses: ['Kids BJJ 5-6 PM', 'All Levels BJJ 6:30-8 PM']},
-    {day: 'Thursday', courses: ['Fundamentals BJJ 6-7 PM', 'Competition Training 7-8:30 PM']},
-    {day: 'Friday', courses: ['No-Gi BJJ 6-7:30 PM', 'Advanced BJJ 7:30-9 PM']},
-    {day: 'Saturday', courses: ['All Levels BJJ 10-11:30 AM', 'Open Mat 11:30 AM-1 PM']},
-    {day: 'Sunday', courses: ['Beginners Workshop 10-11:30 AM']},
+    {
+        day: 'Lundi', courses: ['7.30H-8.30H : BJJ',
+            '12H-13H : MUAY THAI',
+            '13H-14H: PRÉPARATION PHYSIQUE',
+            '17H00-17H45 : BABY BJJ',
+            '17H45-19H00 : BJJ KIDS',
+            '19H-20H30 : BJJ',
+            '20H30-21H30 : LUTTE']
+    },
+    {
+        day: 'Mardi', courses: ['12H30-14H : GRAPPLING',
+            '13H-14H : PRÉPARATION PHYSIQUE',
+            '17H-18H : LUTTE KIDS',
+            '17H-18H : PREPARATION PHYSIQUE',
+            '18H-19H : GRAPPLING',
+            '18H-19H : LUTTE',
+            '19H-20H : BOXE AMATEUR',
+            '20H-21H30 : MMA']
+    },
+    {
+        day: 'Mercredi', courses: ['7.30H-8.30H : BJJ',
+            '10H-11H : BOXE FEMMES',
+            '11H-12H : BOXE KIDS',
+            '16H-17H : MMA KIDS',
+            '17H-18H : BABY BJJ X BJJ KIDS',
+            '18H-19H : LUTTE KIDS',
+            '19H-20H30 : BJJ',
+            '20H30-21H30 : LUTTE',
+        ]
+    },
+    {
+        day: 'Jeudi', courses: ['12H30-14H : GRAPPLING',
+            '17H-18H : LUTTE',
+            '18H-19H00 : GRAPPLING SPECIFIQUE',
+            'SPARRING',
+            '18H-19H00 : PRÉPARATION PHYSIQUE',
+            '19H-20H : MUAY THAI',
+            '20H-21H30 : MMA']
+    },
+    {
+        day: 'Vendredi', courses: ['7.30H-8.30H : BJJ',
+            '18H-19H : BOXE AMATEUR',
+            '19H-20H : BJJ SPECIFIQUE SPARRING',
+            '20H-21H30 : MUAY']
+    },
+    {
+        day: 'Samedi', courses: ['10H-11H : MMA KIDS',
+            '10H-11H : BOXE KIDS',
+            '11H-12H : BOXE FEMMES',
+            '11H-12H : BJJ KIDS',
+            '12H-13H : LUTTE KIDS',
+            '13H-15H : OPEN MAT']
+    },
+    {day: 'Dimanche', courses: ['CLASSES PRIVÉES & ÉVÉNEMENTS']},
 ]
 
 const faqItems = [

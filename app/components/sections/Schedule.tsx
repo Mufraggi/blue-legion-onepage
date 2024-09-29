@@ -12,6 +12,15 @@ interface Schedules {
 }
 
 export function Schedule({ weeklySchedule }: Schedules) {
+    const formatCourse = (course: string) => {
+        const [time, ...rest] = course.split(':')
+        return (
+            <>
+                <span className="text-blue-600 font-bold">{time}:</span>
+                <span>{rest.join(':')}</span>
+            </>
+        )
+    }
     return (<section id="schedule" className="bg-gray-100 py-16 md:py-20">
         <div className="container mx-auto px-4">
             <h2 className="text-2xl md:text-3xl font-bold mb-6 md:mb-8 text-center">Weekly Schedule</h2>
@@ -20,8 +29,10 @@ export function Schedule({ weeklySchedule }: Schedules) {
                     <div key={index} className="bg-white p-4 rounded-lg shadow">
                         <h3 className="font-bold text-lg mb-2">{day.day}</h3>
                         <ul className="space-y-2">
-                            {day.courses.map((course, courseIndex) => (
-                                <li key={courseIndex} className="text-sm">{course}</li>
+                            {day.courses.map((course, index) => (
+                                <li key={index} className="text-sm md:text-base">
+                                    {formatCourse(course)}
+                                </li>
                             ))}
                         </ul>
                     </div>
@@ -29,4 +40,5 @@ export function Schedule({ weeklySchedule }: Schedules) {
             </div>
         </div>
     </section>)
+
 }
