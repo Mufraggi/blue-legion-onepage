@@ -1,6 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: '/mufraggi.github.io/blue-legion-onepage'
+    output: 'export',
+    assetPrefix: '/blue-legion-onepage/',
+    basePath: '/blue-legion-onepage',
+    images: {
+        unoptimized: true,
+    },
 };
 
 export default nextConfig;
