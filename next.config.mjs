@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: '/blue-legion-onepage'
+    basePath: '/mufraggi.github.io/blue-legion-onepage'
 };
 
 export default nextConfig;
