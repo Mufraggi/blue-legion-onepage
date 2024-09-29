@@ -8,6 +8,7 @@ import {Shop} from "@/app/components/sections/Shop";
 import {About} from "@/app/components/sections/About";
 import {Contact} from "@/app/components/sections/Contact";
 
+
 const weeklySchedule = [
     {
         day: 'Lundi', courses: ['7.30H-8.30H : BJJ',
@@ -92,17 +93,20 @@ const partners: Partner[] = [
 ]
 
 const shopItems = [
-    {name: "Blue Legion Gi", price: 129.99, image: "/placeholder.svg?text=Blue+Legion+Gi"},
-    {name: "Rash Guard", price: 49.99, image: "/placeholder.svg?text=Rash+Guard"},
-    {name: "Protein Powder", price: 39.99, image: "/placeholder.svg?text=Protein+Powder"},
-    {name: "BJJ Belt", price: 24.99, image: "/placeholder.svg?text=BJJ+Belt"},
+    {name: "Blue Legion Gi", price: 129.99, image: "/shops/BASEKIMSND-4-562x703.webp"},
+    {name: "Rash Guard", price: 49.99, image: "/shops/ATHLITEV6BLUEFEM-1-1-285x356.webp"},
+    {name: "Protein Powder", price: 39.99, image: "/shops/SENSHURASH2425-562x703.webp"},
+    {name: "Iso Whey Zero", price: 24.99, image: "/shops/iso_whey_zero_cookie.webp"},
 ]
+
+
+const images = ["/pictures/test_hero.webp", "/pictures/testcarrousell.webp"]
 
 export default function BlueLegionPage() {
     return (
         <main className="flex-grow">
             <Hero/>
-            <Gallery/>
+            <Gallery images={images}/>
             <Schedule weeklySchedule={weeklySchedule}></Schedule>
             <Shop shopItems={shopItems}/>
             <About/>

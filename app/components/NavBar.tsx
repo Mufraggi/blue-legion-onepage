@@ -7,7 +7,7 @@ export function NavBar() {
     return (
         <header className="bg-blue-600 text-white p-4">
             <div className="container mx-auto flex justify-between items-center">
-                <Image src="/457411618_840310674892957_1297826807052066464_n.jpg" alt="Blue Legion Logo" width={100}
+                <Image src="/logos/logo.webp" alt="Blue Legion Logo" width={100}
                        height={50}/>
                 <nav className="hidden md:block">
                     <ul className="flex space-x-4">
