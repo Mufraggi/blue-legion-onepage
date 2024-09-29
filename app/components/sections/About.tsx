@@ -8,7 +8,7 @@ export function About() {
                 <p className="mb-4">Blue Legion is a premier Brazilian JBB sport club dedicated to teaching the art and
                     discipline of Brazilian Jiu-Jitsu. Our experienced instructors are committed to helping you achieve
                     your fitness goals and master the techniques of this dynamic martial art.</p>
-                <p>Whether you're a beginner or an experienced practitioner, we offer classes for all skill levels in a
+                <p>Whether you&#39;re a beginner or an experienced practitioner, we offer classes for all skill levels in a
                     supportive and challenging environment.</p>
             </div>
         </div>
