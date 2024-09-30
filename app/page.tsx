@@ -86,8 +86,8 @@ const faqItems = [
 ]
 
 const partners: Partner[] = [
-    {name: "Acme Gear", logo: "/placeholder.svg?text=Acme+Gear", url: "https://acmegear.com"},
-    {name: "FitLife Supplements", logo: "/placeholder.svg?text=FitLife", url: "https://fitlife.com"},
+    {name: "Draig", logo: "/logos/draig.webp", url: "https://acmegear.com"},
+    {name: "Bad Torros", logo: "/logos/torros.webp", url: "https://fitlife.com"},
     {name: "GrappleWear", logo: "/placeholder.svg?text=GrappleWear", url: "https://grapplewear.com"},
     {name: "MMA World", logo: "/placeholder.svg?text=MMA+World", url: "https://mmaworld.com"},
 ]
